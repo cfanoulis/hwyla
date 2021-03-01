@@ -1,4 +1,14 @@
-const Head = ({
+import NextHead from 'next/head';
+import type React from 'react';
+interface HeadProps {
+	author: string;
+	title: string;
+	description: string;
+	image: string;
+	color: string;
+}
+
+const Head: React.FC<HeadProps> = ({
 	author = 'Hackropolis', // site name
 	title = "Here's What you're Listening At", // page title
 	description,
@@ -6,7 +16,7 @@ const Head = ({
 	color = '#1d7c00',
 	children
 }) => (
-	<head>
+	<NextHead>
 		<meta key="og_locale" property="og:locale" content="en_US" />
 		<meta key="og_type" property="og:type" content="website" />
 		<meta key="og_site" property="og:site_name" content={author} />
@@ -36,7 +46,7 @@ const Head = ({
 		<link key="favicon_16" rel="icon" type="image/png" sizes="16x16" href="https://assets.hackclub.com/favicons/favicon-16x16.png" />
 		{manifest && <link key="manifest" rel="manifest" href={manifest} />} */}
 		{children}
-	</head>
+	</NextHead>
 );
 
 export default Head;

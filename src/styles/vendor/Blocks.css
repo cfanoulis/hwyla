@@ -1,6 +1,7 @@
 /* DEFAULT VARIABLES */
 body {
 	--block-text-color: #222;
+	--block-border-color: #222;
 	--block-background-color: #fff;
 	--block-accent-color: #00ae86;
 	--block-shadow-color: #444;
@@ -10,7 +11,7 @@ body {
 .block {
 	display: block;
 	color: var(--block-text-color);
-	border: 3px solid var(--block-text-color);
+	border: 3px solid var(--block-border-color);
 	border-radius: 3px;
 	padding: 4px 8px;
 	background: var(--block-background-color);
