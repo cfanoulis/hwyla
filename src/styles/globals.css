@@ -12,6 +12,7 @@ a {
 
 * {
 	box-sizing: border-box;
+	/* overflow: hidden; */
 }
 
 .main-block {
@@ -22,4 +23,8 @@ a {
 	justify-content: center;
 	align-items: center;
 	padding: 1rem !important;
+}
+
+::-webkit-scrollbar {
+	display: none;
 }

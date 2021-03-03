@@ -11,10 +11,12 @@
 		"@types/node": "^14.14.31",
 		"@types/react": "^17.0.2",
 		"@types/react-dom": "^17.0.1",
+		"cookie": "^0.4.1",
 		"next": "10.0.7",
-		"node-sass": "^5.0.0",
+		"nookies": "^2.5.2",
 		"postgres": "^1.0.2",
 		"react": "17.0.1",
+		"react-cookie": "^4.0.3",
 		"react-dom": "17.0.1",
 		"swr": "^0.4.2",
 		"typescript": "^4.2.2"
@@ -22,10 +24,11 @@
 	"devDependencies": {
 		"@sapphire/eslint-config": "^3.0.1",
 		"@sapphire/prettier-config": "^1.0.7",
-		"@typescript-eslint/eslint-plugin": "^4.15.2",
-		"@typescript-eslint/parser": "^4.15.2",
+		"@typescript-eslint/eslint-plugin": "^4.16.1",
+		"@typescript-eslint/parser": "^4.16.1",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-prettier": "^3.3.1",
 		"prettier": "^2.2.1"
-	}
+	},
+	"browserslist": "last 2 version and >0.2% and not dead and not IE <= 11"
 }
