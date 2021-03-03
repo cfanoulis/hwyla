@@ -15,19 +15,18 @@ body {
 	border-radius: 3px;
 	padding: 4px 8px;
 	background: var(--block-background-color);
-	font-weight: bold;
+	/* font-weight: bold; */
 	cursor: pointer;
 	box-sizing: border-box;
-
 	position: relative;
 	top: -2px;
 	left: -2px;
 	transition: transform 0.2s;
 	margin: 8px 6px 10px 6px;
 	z-index: 1;
-	user-select: none;
+	/* user-select: none;
 	-webkit-user-select: none;
-	-moz-user-select: none;
+	-moz-user-select: none; */
 }
 
 .block.wrapper,
